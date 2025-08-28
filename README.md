@@ -1,5 +1,5 @@
 # COASTAL
-**Coastal** - _Coastal Spatial Transformations: Analysis of Land-use_ - is a repository for the data and analysis of urban and land-use transformations in the Northern Coast of Rio Grande do Sul, Brazil.
+**COASTAL** - _Coastal Spatial Transformations: Analysis of Land-use_ - is a repository for the data and analysis of urban and land-use transformations in the Northern Coast of Rio Grande do Sul, Brazil.
 
 This project investigates the patterns of urban and land cover changes in the municipalities of Osório, Tramandaí, and Imbé from 1985 to 2023.
 

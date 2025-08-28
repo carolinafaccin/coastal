@@ -1,0 +1,242 @@
+class,nm_mun,descricao,id,area_km2
+33,Arroio do Sal,"Rio, Lago e Oceano",1,21.6627
+33,Balneário Pinhal,"Rio, Lago e Oceano",2,18.4574
+33,Capão da Canoa,"Rio, Lago e Oceano",3,3.101
+33,Capivari do Sul,"Rio, Lago e Oceano",4,20.6222
+33,Caraá,"Rio, Lago e Oceano",5,0.0399
+33,Cidreira,"Rio, Lago e Oceano",6,47.2216
+33,Dom Pedro de Alcântara,"Rio, Lago e Oceano",7,14.2507
+33,Imbé,"Rio, Lago e Oceano",8,5.34
+33,Itati,"Rio, Lago e Oceano",9,0.0609
+33,Mampituba,"Rio, Lago e Oceano",10,0.1989
+33,Maquiné,"Rio, Lago e Oceano",11,122.7933
+33,Morrinhos do Sul,"Rio, Lago e Oceano",12,0.7344
+33,Osório,"Rio, Lago e Oceano",13,176.3657
+33,Palmares do Sul,"Rio, Lago e Oceano",14,88.9196
+33,Terra de Areia,"Rio, Lago e Oceano",15,10.59
+33,Torres,"Rio, Lago e Oceano",16,8.1159
+33,Tramandaí,"Rio, Lago e Oceano",17,18.1523
+33,Três Cachoeiras,"Rio, Lago e Oceano",18,89.6954
+33,Três Forquilhas,"Rio, Lago e Oceano",19,0.9107
+33,Xangri-lá,"Rio, Lago e Oceano",20,2.0045
+50,Balneário Pinhal,Restinga Herbácea,21,9.0676
+50,Capivari do Sul,Restinga Herbácea,22,2.0347
+50,Cidreira,Restinga Herbácea,23,36.0689
+50,Imbé,Restinga Herbácea,24,1.7088
+50,Maquiné,Restinga Herbácea,25,10.9
+50,Osório,Restinga Herbácea,26,67.8886
+50,Palmares do Sul,Restinga Herbácea,27,65.3052
+50,Tramandaí,Restinga Herbácea,28,13.0439
+50,Xangri-lá,Restinga Herbácea,29,0.2941
+3,Arroio do Sal,Formação Florestal,30,0.1608
+3,Capão da Canoa,Formação Florestal,31,0.0312
+3,Capivari do Sul,Formação Florestal,32,1.5474
+3,Caraá,Formação Florestal,33,208.6657
+3,Dom Pedro de Alcântara,Formação Florestal,34,10.3908
+3,Itati,Formação Florestal,35,169.6572
+3,Mampituba,Formação Florestal,36,86.0403
+3,Maquiné,Formação Florestal,37,389.2872
+3,Morrinhos do Sul,Formação Florestal,38,58.4006
+3,Osório,Formação Florestal,39,70.8296
+3,Terra de Areia,Formação Florestal,40,29.1122
+3,Torres,Formação Florestal,41,3.5169
+3,Três Cachoeiras,Formação Florestal,42,67.9203
+3,Três Forquilhas,Formação Florestal,43,168.3763
+21,Arroio do Sal,Mosaico de Usos,44,20.4428
+21,Balneário Pinhal,Mosaico de Usos,45,7.4554
+21,Capão da Canoa,Mosaico de Usos,46,4.898
+21,Capivari do Sul,Mosaico de Usos,47,91.6055
+21,Caraá,Mosaico de Usos,48,17.4065
+21,Cidreira,Mosaico de Usos,49,24.7414
+21,Dom Pedro de Alcântara,Mosaico de Usos,50,27.8062
+21,Imbé,Mosaico de Usos,51,1.4153
+21,Itati,Mosaico de Usos,52,11.8133
+21,Mampituba,Mosaico de Usos,53,35.8292
+21,Maquiné,Mosaico de Usos,54,14.3088
+21,Morrinhos do Sul,Mosaico de Usos,55,48.5236
+21,Osório,Mosaico de Usos,56,58.5234
+21,Palmares do Sul,Mosaico de Usos,57,135.8581
+21,Terra de Areia,Mosaico de Usos,58,6.2457
+21,Torres,Mosaico de Usos,59,54.3486
+21,Tramandaí,Mosaico de Usos,60,10.0206
+21,Três Cachoeiras,Mosaico de Usos,61,41.8216
+21,Três Forquilhas,Mosaico de Usos,62,16.1035
+21,Xangri-lá,Mosaico de Usos,63,5.051
+39,Arroio do Sal,Soja,64,0.1178
+39,Balneário Pinhal,Soja,65,0.4963
+39,Capão da Canoa,Soja,66,0.0569
+39,Capivari do Sul,Soja,67,20.7125
+39,Caraá,Soja,68,0.0872
+39,Cidreira,Soja,69,0.8605
+39,Dom Pedro de Alcântara,Soja,70,0.2441
+39,Imbé,Soja,71,0.0093
+39,Itati,Soja,72,0.0195
+39,Mampituba,Soja,73,0.241
+39,Maquiné,Soja,74,0.3647
+39,Morrinhos do Sul,Soja,75,0.3573
+39,Osório,Soja,76,3.6248
+39,Palmares do Sul,Soja,77,64.4755
+39,Terra de Areia,Soja,78,0.5287
+39,Torres,Soja,79,2.1832
+39,Tramandaí,Soja,80,0.636
+39,Três Cachoeiras,Soja,81,0.4866
+39,Xangri-lá,Soja,82,0.042
+40,Balneário Pinhal,Arroz,83,1.3749
+40,Capivari do Sul,Arroz,84,50.8214
+40,Caraá,Arroz,85,1.0182
+40,Cidreira,Arroz,86,2.6338
+40,Dom Pedro de Alcântara,Arroz,87,0.061
+40,Imbé,Arroz,88,0.0987
+40,Mampituba,Arroz,89,0.7334
+40,Maquiné,Arroz,90,0.0942
+40,Morrinhos do Sul,Arroz,91,0.0441
+40,Osório,Arroz,92,12.1253
+40,Palmares do Sul,Arroz,93,64.0387
+40,Torres,Arroz,94,10.59
+40,Tramandaí,Arroz,95,0.952
+40,Três Cachoeiras,Arroz,96,0.0188
+40,Xangri-lá,Arroz,97,0.5301
+23,Arroio do Sal,"Praia, Duna e Areal",98,5.6882
+23,Balneário Pinhal,"Praia, Duna e Areal",99,12.4098
+23,Capão da Canoa,"Praia, Duna e Areal",100,4.3048
+23,Cidreira,"Praia, Duna e Areal",101,35.1545
+23,Imbé,"Praia, Duna e Areal",102,3.6201
+23,Osório,"Praia, Duna e Areal",103,2.576
+23,Palmares do Sul,"Praia, Duna e Areal",104,79.8054
+23,Terra de Areia,"Praia, Duna e Areal",105,0.2748
+23,Torres,"Praia, Duna e Areal",106,4.9678
+23,Tramandaí,"Praia, Duna e Areal",107,14.1481
+23,Xangri-lá,"Praia, Duna e Areal",108,1.1473
+41,Arroio do Sal,Outras Lavouras Temporárias,109,0.5119
+41,Balneário Pinhal,Outras Lavouras Temporárias,110,3.1793
+41,Capão da Canoa,Outras Lavouras Temporárias,111,1.321
+41,Capivari do Sul,Outras Lavouras Temporárias,112,125.0406
+41,Caraá,Outras Lavouras Temporárias,113,9.0976
+41,Cidreira,Outras Lavouras Temporárias,114,10.1503
+41,Dom Pedro de Alcântara,Outras Lavouras Temporárias,115,1.0886
+41,Imbé,Outras Lavouras Temporárias,116,0.2667
+41,Itati,Outras Lavouras Temporárias,117,0.4536
+41,Mampituba,Outras Lavouras Temporárias,118,3.3262
+41,Maquiné,Outras Lavouras Temporárias,119,6.6231
+41,Morrinhos do Sul,Outras Lavouras Temporárias,120,3.0106
+41,Osório,Outras Lavouras Temporárias,121,39.7775
+41,Palmares do Sul,Outras Lavouras Temporárias,122,169.3401
+41,Terra de Areia,Outras Lavouras Temporárias,123,3.0563
+41,Torres,Outras Lavouras Temporárias,124,5.2406
+41,Tramandaí,Outras Lavouras Temporárias,125,8.9678
+41,Três Cachoeiras,Outras Lavouras Temporárias,126,1.491
+41,Três Forquilhas,Outras Lavouras Temporárias,127,0.6535
+41,Xangri-lá,Outras Lavouras Temporárias,128,2.1569
+24,Arroio do Sal,Área Urbanizada,129,12.4768
+24,Balneário Pinhal,Área Urbanizada,130,6.1911
+24,Capão da Canoa,Área Urbanizada,131,15.4518
+24,Capivari do Sul,Área Urbanizada,132,0.1741
+24,Cidreira,Área Urbanizada,133,5.9907
+24,Dom Pedro de Alcântara,Área Urbanizada,134,0.0883
+24,Imbé,Área Urbanizada,135,15.4879
+24,Itati,Área Urbanizada,136,0.0047
+24,Maquiné,Área Urbanizada,137,0.1987
+24,Morrinhos do Sul,Área Urbanizada,138,0.0219
+24,Osório,Área Urbanizada,139,9.6987
+24,Palmares do Sul,Área Urbanizada,140,3.533
+24,Terra de Areia,Área Urbanizada,141,2.076
+24,Torres,Área Urbanizada,142,10.0144
+24,Tramandaí,Área Urbanizada,143,17.9854
+24,Três Cachoeiras,Área Urbanizada,144,0.7802
+24,Três Forquilhas,Área Urbanizada,145,0.0421
+24,Xangri-lá,Área Urbanizada,146,11.8815
+25,Arroio do Sal,Outras Áreas não Vegetadas,147,2.9917
+25,Balneário Pinhal,Outras Áreas não Vegetadas,148,3.3754
+25,Capão da Canoa,Outras Áreas não Vegetadas,149,3.9402
+25,Capivari do Sul,Outras Áreas não Vegetadas,150,2.1519
+25,Caraá,Outras Áreas não Vegetadas,151,0.1385
+25,Cidreira,Outras Áreas não Vegetadas,152,19.5127
+25,Imbé,Outras Áreas não Vegetadas,153,0.9907
+25,Maquiné,Outras Áreas não Vegetadas,154,2.1132
+25,Osório,Outras Áreas não Vegetadas,155,31.1458
+25,Palmares do Sul,Outras Áreas não Vegetadas,156,17.1478
+25,Terra de Areia,Outras Áreas não Vegetadas,157,1.4734
+25,Torres,Outras Áreas não Vegetadas,158,1.4689
+25,Tramandaí,Outras Áreas não Vegetadas,159,7.5338
+25,Três Cachoeiras,Outras Áreas não Vegetadas,160,0.0077
+25,Três Forquilhas,Outras Áreas não Vegetadas,161,0.014
+25,Xangri-lá,Outras Áreas não Vegetadas,162,0.9949
+9,Arroio do Sal,Silvicultura,163,0.0703
+9,Balneário Pinhal,Silvicultura,164,13.2833
+9,Capivari do Sul,Silvicultura,165,6.0285
+9,Caraá,Silvicultura,166,0.102
+9,Cidreira,Silvicultura,167,3.4709
+9,Maquiné,Silvicultura,168,0.3147
+9,Osório,Silvicultura,169,4.3528
+9,Palmares do Sul,Silvicultura,170,44.8397
+9,Tramandaí,Silvicultura,171,3.3171
+9,Três Cachoeiras,Silvicultura,172,0.0062
+9,Três Forquilhas,Silvicultura,173,0.0609
+11,Arroio do Sal,Campo Alagado e Área Pantanosa,174,3.6721
+11,Balneário Pinhal,Campo Alagado e Área Pantanosa,175,3.1139
+11,Capão da Canoa,Campo Alagado e Área Pantanosa,176,1.6366
+11,Capivari do Sul,Campo Alagado e Área Pantanosa,177,14.8936
+11,Cidreira,Campo Alagado e Área Pantanosa,178,10.6783
+11,Dom Pedro de Alcântara,Campo Alagado e Área Pantanosa,179,2.4976
+11,Imbé,Campo Alagado e Área Pantanosa,180,9.1054
+11,Maquiné,Campo Alagado e Área Pantanosa,181,17.6303
+11,Morrinhos do Sul,Campo Alagado e Área Pantanosa,182,2.5158
+11,Osório,Campo Alagado e Área Pantanosa,183,48.0445
+11,Palmares do Sul,Campo Alagado e Área Pantanosa,184,58.4041
+11,Terra de Areia,Campo Alagado e Área Pantanosa,185,1.0726
+11,Torres,Campo Alagado e Área Pantanosa,186,4.3338
+11,Tramandaí,Campo Alagado e Área Pantanosa,187,7.5789
+11,Três Cachoeiras,Campo Alagado e Área Pantanosa,188,0.3641
+11,Três Forquilhas,Campo Alagado e Área Pantanosa,189,0.0133
+11,Xangri-lá,Campo Alagado e Área Pantanosa,190,10.6228
+12,Arroio do Sal,Formação Campestre,191,3.8178
+12,Balneário Pinhal,Formação Campestre,192,14.3811
+12,Capão da Canoa,Formação Campestre,193,7.3273
+12,Capivari do Sul,Formação Campestre,194,65.2041
+12,Caraá,Formação Campestre,195,45.4344
+12,Cidreira,Formação Campestre,196,36.37
+12,Imbé,Formação Campestre,197,1.6806
+12,Itati,Formação Campestre,198,4.1049
+12,Mampituba,Formação Campestre,199,0.0004
+12,Maquiné,Formação Campestre,200,29.8663
+12,Morrinhos do Sul,Formação Campestre,201,0.3418
+12,Osório,Formação Campestre,202,116.9514
+12,Palmares do Sul,Formação Campestre,203,97.6245
+12,Terra de Areia,Formação Campestre,204,26.1697
+12,Tramandaí,Formação Campestre,205,31.7482
+12,Três Cachoeiras,Formação Campestre,206,0.7764
+12,Três Forquilhas,Formação Campestre,207,6.5075
+12,Xangri-lá,Formação Campestre,208,10.7302
+15,Arroio do Sal,Pastagem,209,27.8176
+15,Capão da Canoa,Pastagem,210,24.7468
+15,Caraá,Pastagem,211,12.114
+15,Dom Pedro de Alcântara,Pastagem,212,16.5772
+15,Itati,Pastagem,213,17.0392
+15,Mampituba,Pastagem,214,29.7415
+15,Maquiné,Pastagem,215,14.0188
+15,Morrinhos do Sul,Pastagem,216,43.9807
+15,Osório,Pastagem,217,3.4057
+15,Terra de Areia,Pastagem,218,27.5777
+15,Torres,Pastagem,219,46.6817
+15,Três Cachoeiras,Pastagem,220,43.9159
+15,Três Forquilhas,Pastagem,221,20.4119
+15,Xangri-lá,Pastagem,222,6.7209
+49,Arroio do Sal,Restinga Arbórea,223,4.7387
+49,Balneário Pinhal,Restinga Arbórea,224,9.5752
+49,Capão da Canoa,Restinga Arbórea,225,3.321
+49,Capivari do Sul,Restinga Arbórea,226,11.8534
+49,Cidreira,Restinga Arbórea,227,10.5119
+49,Dom Pedro de Alcântara,Restinga Arbórea,228,5.2148
+49,Imbé,Restinga Arbórea,229,0.007
+49,Itati,Restinga Arbórea,230,0.2823
+49,Mampituba,Restinga Arbórea,231,0.3897
+49,Maquiné,Restinga Arbórea,232,3.3322
+49,Morrinhos do Sul,Restinga Arbórea,233,8.2943
+49,Osório,Restinga Arbórea,234,18.3252
+49,Palmares do Sul,Restinga Arbórea,235,59.5101
+49,Terra de Areia,Restinga Arbórea,236,10.5771
+49,Torres,Restinga Arbórea,237,9.961
+49,Tramandaí,Restinga Arbórea,238,8.7458
+49,Três Cachoeiras,Restinga Arbórea,239,3.1575
+49,Três Forquilhas,Restinga Arbórea,240,1.5079
+49,Xangri-lá,Restinga Arbórea,241,1.9869

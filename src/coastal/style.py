@@ -1,22 +1,9 @@
-"""Visual identity for the figures: Source Code Pro and the brand palette."""
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-from matplotlib import font_manager as fm
-
+"""Figure style: the brand (brand.py, synced from the lina-brand repository) plus this
+repository's source line and its own header layout (positions as figure fractions, which
+the figures here were laid out with)."""
+from . import brand
+from .brand import *  # noqa: F401,F403  colors, data palettes, helpers
 from .config import ROOT
-
-INK = "#383C2F"       # dark olive
-MUTED = "#737464"
-GRID = "#E7E1DA"
-CREAM = "#FFF8F2"
-GREY = "#DAD2CC"
-SAGE_L = "#CDD7C5"
-SAGE = "#93A97E"
-SAGE_D = "#5C704C"
-YELLOW = "#FDD34A"
-PEACH = "#FED2BF"
-ORANGE = "#D94400"
-RUST = "#7B2405"
 
 SOURCE = "Source: MapBiomas land use and land cover 1985–2023; own calculations."
 REPO = "github.com/carolinafaccin/coastal"
@@ -24,28 +11,7 @@ REPO = "github.com/carolinafaccin/coastal"
 
 def setup():
     """Register the bundled fonts (OFL) and set the matplotlib defaults."""
-    for f in (ROOT / "assets" / "fonts").glob("*.ttf"):
-        fm.fontManager.addfont(str(f))
-    families = {f.name for f in fm.fontManager.ttflist}
-    mpl.rcParams.update({
-        "font.family": "Source Code Pro" if "Source Code Pro" in families else "monospace",
-        "font.size": 9.5,
-        "text.color": INK,
-        "axes.edgecolor": GREY,
-        "axes.labelcolor": MUTED,
-        "axes.spines.top": False,
-        "axes.spines.right": False,
-        "xtick.color": MUTED,
-        "ytick.color": MUTED,
-        "axes.grid": True,
-        "axes.axisbelow": True,
-        "grid.color": GRID,
-        "grid.linewidth": 0.8,
-        "figure.facecolor": "white",
-        "axes.facecolor": "white",
-        "legend.frameon": False,
-        "savefig.facecolor": "white",
-    })
+    brand.setup(ROOT / "assets" / "fonts")
 
 
 def header(fig, title, subtitle=None, top=0.965):
@@ -57,8 +23,3 @@ def header(fig, title, subtitle=None, top=0.965):
 def footer(fig, note=SOURCE):
     fig.text(0.04, 0.018, note, fontsize=7.5, ha="left", va="bottom", color=MUTED)
     fig.text(0.96, 0.018, REPO, fontsize=7.5, ha="right", va="bottom", color=MUTED)
-
-
-def save(fig, path):
-    fig.savefig(path, dpi=200)
-    plt.close(fig)

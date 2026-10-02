@@ -194,7 +194,7 @@ def map_urban_expansion(lc, bnd, expansion, out):
     fig, ax = plt.subplots(figsize=(7.4, 8.6))
     fig.subplots_adjust(left=0.02, right=0.98, top=0.86, bottom=0.12)
     area = b.union_all()
-    b.plot(ax=ax, color="#F4F0EA", linewidth=0)
+    b.plot(ax=ax, color=style.LAND, linewidth=0)
     water.plot(ax=ax, color=style.SAGE_L, linewidth=0)
     expansion["urban_1985"].intersection(area).plot(ax=ax, color=style.RUST, linewidth=0)
     expansion["urban_new"].intersection(area).plot(ax=ax, color=style.ORANGE, linewidth=0)

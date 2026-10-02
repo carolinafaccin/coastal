@@ -1,8 +1,9 @@
 """MapBiomas classes present in AULINOR, grouped for the analysis and the figures.
 
-Groups and colors follow the brand palette (see style.py). Class names in English
-come from the MapBiomas legend.
+Groups and colors follow the brand palette (brand.py, synced from lina-brand). Class
+names in English come from the MapBiomas legend.
 """
+from . import brand as b
 
 # class_id: (name, group)
 CLASSES = {
@@ -26,15 +27,15 @@ URBAN = 24
 
 # Stacking order, bottom to top (urban on top), and brand colors
 GROUPS = {
-    "Water": "#DAD2CC",
-    "Wetland and grassland": "#CDD7C5",
-    "Forest": "#5C704C",
-    "Restinga": "#93A97E",
-    "Beach and dune": "#FDD34A",
-    "Pasture, crops and mosaic": "#FED2BF",
-    "Forestry": "#7B2405",
-    "Other non-vegetated": "#9C9A8C",
-    "Urban": "#D94400",
+    "Water": b.GREY,
+    "Wetland and grassland": b.SAGE_LIGHT,
+    "Forest": b.SAGE_DARK,
+    "Restinga": b.SAGE,
+    "Beach and dune": b.YELLOW,
+    "Pasture, crops and mosaic": b.PEACH,
+    "Forestry": b.RUST,
+    "Other non-vegetated": "#9C9A8C",   # neutral-400 of the site scheme
+    "Urban": b.ORANGE,
 }
 
 # Ecosystems that protect the coast and are hard to recover once built over

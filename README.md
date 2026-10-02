@@ -6,11 +6,6 @@ It rebuilds, in Python, the calculations behind the paper
 [*Padrões de transformação urbana e de uso e cobertura da terra no litoral norte: o caso de Osório, Tramandaí e Imbé*](https://seer.ufrgs.br/index.php/paraonde/article/view/150243)
 (Faccin, Souza & Dalcin, 2026) and checks them against the numbers the paper reports.
 
-<p align="center">
-  <img src="docs/img/map_urban_expansion.png" width="46%" alt="Map of Osório, Tramandaí and Imbé showing urban area in 1985 and new urban area by 2023 along the coast and around Osório">
-  <img src="docs/img/urban_timeline.png" width="53%" alt="Line chart of urban area from 1985 to 2023 in Osório, Tramandaí and Imbé">
-</p>
-
 ## Key results
 
 The study area is **AULINOR**, the 20 municipalities of the Litoral Norte urban agglomeration.
@@ -20,17 +15,19 @@ The study area is **AULINOR**, the 20 municipalities of the Litoral Norte urban 
 - **Three growth patterns.** Osório has a dispersed, fragmented urban growth; Tramandaí, a major tourist center, shows continuous growth and densification; Imbé has rapid, seasonally driven growth that encroaches on dunes and coastal vegetation.
 - **Population followed.** Imbé's population multiplied 3.6 times between the 1991 and 2022 censuses (7,352 to 26,824); Tramandaí's grew 2.7 times.
 
-<p align="center">
-  <img src="docs/img/land_replaced.png" width="100%" alt="Stacked bars showing which land cover the new urban area replaced in AULINOR, Osório, Tramandaí and Imbé, with beach, dune and wetland classes dominant in Imbé and Tramandaí">
-</p>
+## Figures
 
-<p align="center">
-  <img src="docs/img/landcover_change.png" width="100%" alt="Three stacked area charts of land cover by group from 1985 to 2023 for Osório, Tramandaí and Imbé, with the urban class growing at the top">
-</p>
+![Line chart of urban area from 1985 to 2023 in Osório, Tramandaí and Imbé](docs/img/urban_timeline.png)
 
-<p align="center">
-  <img src="docs/img/urban_growth.png" width="80%" alt="Dumbbell chart of urban area in 1985 and 2023 for the AULINOR municipalities">
-</p>
+![Map of Osório, Tramandaí and Imbé showing urban area in 1985 and new urban area by 2023 along the coast and around Osório](docs/img/map_urban_expansion.png)
+
+![Dumbbell chart of urban area in 1985 and 2023 for the AULINOR municipalities](docs/img/urban_growth.png)
+
+![Stacked bars showing which land cover the new urban area replaced in AULINOR, Osório, Tramandaí and Imbé, with beach, dune and wetland classes dominant in Imbé and Tramandaí](docs/img/land_replaced.png)
+
+![Three stacked area charts of land cover by group from 1985 to 2023 for Osório, Tramandaí and Imbé, with the urban class growing at the top](docs/img/landcover_change.png)
+
+![Land-cover maps of Osório, Tramandaí and Imbé in 1985 and 2023](docs/img/map_landcover.png)
 
 ## How it works
 
@@ -80,7 +77,7 @@ pytest                                           # unit tests + validation again
 | `tables/qa_coverage.csv` | Classified vs. unclassified area per year |
 | `tables/validation.csv` | Computed vs. published values |
 | `spatial/aulinor_urban_expansion.gpkg` | Layers `urban_1985`, `urban_2023`, `urban_new` |
-| `figures/*.png` | All figures (five of them are copied to `docs/img/` for this README) |
+| `figures/*.png` | All figures (copied to `docs/img/` for this README) |
 
 ## Validation
 

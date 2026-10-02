@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from coastal import config, figures, landcover, metrics, population, style  # noqa: E402
 
-README_FIGURES = ["urban_timeline", "urban_growth", "landcover_change", "land_replaced", "map_urban_expansion"]
+README_FIGURES = ["urban_timeline", "map_urban_expansion", "urban_growth", "land_replaced", "landcover_change", "map_landcover"]
 
 
 def run_tables(raw_dir, data_dir, aulinor, refresh):

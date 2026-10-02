@@ -55,13 +55,13 @@ flowchart LR
 ```bash
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-cp config.local.json.example config.local.json   # set raw_dir and data_dir
+cp config/config.local.json.example config/config.local.json # set raw_dir and data_dir
 python pipeline.py                               # tables + spatial + figures + README images
 python pipeline.py --only figures docs           # redraw figures only
 pytest                                           # unit tests + validation against the paper
 ```
 
-`config.local.json` (gitignored) sets two folders:
+`config/config.local.json` (gitignored) sets two folders:
 
 | Key | Purpose |
 |---|---|
@@ -109,7 +109,7 @@ pytest                                           # unit tests + validation again
 ```
 pipeline.py            orchestrator (tables, figures, docs)
 src/coastal/
-  config.py            paths from config.local.json
+  config.py            paths from config/config.local.json
   classes.py           MapBiomas classes, groups and brand colors
   landcover.py         load the polygons
   metrics.py           urban growth, replaced land, QA, validation
@@ -117,7 +117,6 @@ src/coastal/
   figures.py, style.py figures in the project's visual identity
 tests/                 synthetic unit tests + validation against the paper
 assets/fonts/          Source Code Pro (SIL OFL)
-notebooks/archive/     the first exploratory notebook (v1)
 ```
 
 ## Credits

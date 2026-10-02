@@ -5,7 +5,7 @@
     python pipeline.py --only figures docs   # redraw figures and copy the README ones
     python pipeline.py --refresh-population  # download the IBGE population again
 
-Inputs come from raw_dir and outputs go to data_dir, both set in config.local.json.
+Inputs come from raw_dir and outputs go to data_dir, both set in config/config.local.json.
 """
 import argparse
 import shutil

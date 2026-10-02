@@ -5,8 +5,8 @@ import pytest
 
 from coastal import config, landcover, metrics, population
 
-CFG = config.ROOT / "config.local.json"
-pytestmark = pytest.mark.skipif(not CFG.exists(), reason="config.local.json not set")
+CFG = config.ROOT / "config" / "config.local.json"
+pytestmark = pytest.mark.skipif(not CFG.exists(), reason="config/config.local.json not set")
 
 
 @pytest.fixture(scope="module")

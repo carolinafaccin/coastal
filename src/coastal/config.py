@@ -16,9 +16,9 @@ YEARS = [1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2023]
 
 def load():
     """Return (raw_dir, data_dir) as Paths; create data_dir subfolders."""
-    cfg_path = ROOT / "config.local.json"
+    cfg_path = ROOT / "config" / "config.local.json"
     if not cfg_path.exists():
-        raise SystemExit(f"Missing {cfg_path.name}: copy config.local.json.example and set raw_dir and data_dir.")
+        raise SystemExit(f"Missing {cfg_path.name}: copy config/config.local.json.example and set raw_dir and data_dir.")
     cfg = json.loads(cfg_path.read_text())
     raw_dir, data_dir = Path(cfg["raw_dir"]), Path(cfg["data_dir"])
     if not raw_dir.exists():

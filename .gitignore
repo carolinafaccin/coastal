@@ -214,7 +214,7 @@ data/*
 figures/graphs/tests*
 
 # Local configuration and environment
-config.local.json
+config/config.local.json
 venv/
 .venv/
 __pycache__/

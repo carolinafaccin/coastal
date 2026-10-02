@@ -212,3 +212,11 @@ __marimo__/
 # Data
 data/*
 figures/graphs/tests*
+
+# Local configuration and environment
+config.local.json
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
